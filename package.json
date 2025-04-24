@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  },
+  "scripts": {
+    "description": "build - produkcja, dev - automatyczne aktualizowanie / npm run build/dev",
+    "build": "npx @tailwindcss/cli -i ./styles/styles.css -o ./styles/output.css",
+    "dev": "npx @tailwindcss/cli -i ./styles/styles.css -o ./styles/output.css --watch"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.12"
+  }
+}
