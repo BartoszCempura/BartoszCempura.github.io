@@ -1,9 +1,0 @@
-przeanalizuj kod skryptu i kod div dla linku i podwójnego zdjęcia. Pousówaj komentarze jak zrozumiałeś albo dodaj swoje
-
-Wykombinuj jak dodać zdjęcie do liku strony\\ jakiś prtscr?? 
-
-zmień guzik otwarcia strony tak aby pasował do reszty designu
-
-W opisie dodaj jaki miał cel projekt i co było działane w jakim systemie
-
-Do dodania pozostały , judo plakat, judo koszulka, i wizytówka - to raczej sthrait forward. Plakat możesz trochę zmodyfikować aby paskował do obiektu - zrób mockup?? ż ena tablicy w szkole wisi a w podglądzie na sucho[hidden ten który będzie wyświetlany, zamień id. Hidden będzie miał id a  ten drogi nie 
