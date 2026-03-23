@@ -31,23 +31,21 @@ class="fixed right-0 top-1/2 -translate-y-1/2 h-40 w-4 bg-white z-45 rounded-l-l
 
 <!-- Sekcja Hasło wstpne -->
   <section class="h-screen"> 
-<!--
-    <div class="relative group">
-      
+
+    <div class="relative group">  
       <div class="absolute top-8.5 right-16.5 bg-gray-200 w-16.5 h-10 rounded group-hover:border-amber-300 group-hover:border-2"></div>
-      
-      
-      <button id="toggleButton" class="button-state-1" onclick="toggleButtonClasses()">
-        EN
-      </button>
+        <button id="toggleButton" class="button-state-1" onclick="toggleButtonClasses()">
+          PL
+        </button>
     </div>
-  -->
+
 
     <div class="h-screen flex justify-center items-center">
     <h1 class="lg:text-9xl md:text-super sm:text-8xl text-6xl font-bold text-center mx-10">
-      <span class=" text-white">Szukasz człowieka </span>
+      <span id="wt1" class=" text-white"></span>
       <br/>
-      <span class="text-amber-300">z wyobraźnią ??</span></h1>
+      <span id="wt2" class="text-amber-300"></span>
+    </h1>
     </div>
 
     <div class="arrow bounce mt-[-100px]"></div>
@@ -62,22 +60,10 @@ class="fixed right-0 top-1/2 -translate-y-1/2 h-40 w-4 bg-white z-45 rounded-l-l
         <div class="hero-content flex-col lg:flex-row gap-[2.5rem]">
           <img src="assets/Zdjęcie nowe.jpg" class="w-48 md:w-64 lg:w-80 xl:w-96 rounded-lg" />
           <div class="bg-black p-6">
-            <h1 class="text-3xl md:text-5xl lg:text-6xl text-amber-300 font-bold">Cześć !!!</h1>
-            <p class="text-white text-sm sm:text-base md:text-lg lg:text-xl py-6">
-              Stary ze mnie chłop z peselu, ale młody z ducha.
-              Długo szukałem i parę rzeczy skosztowałem
-              zanim technologia skradła moje serce.
-              <br/><br/>
-              Wybredny ze mnie gość, ale to dlatego że to szczegóły stanowią o wartości.
-              Jak się angażuję to z pełną mocą.
-              <br/><br/>
-              Z wychowania aktor, plastyk. Z wykształcenia muzyk, filozof.
-              Z pasji cyfrowy rzemieślnik.
-              <br/><br/>
-              Wierzę, że ta mieszanka daje mi unikalną perspektywę
-              na rozwiązywanie problemów i tworzenie projektów
+            <h1 id="hi" class="text-3xl md:text-5xl lg:text-6xl text-amber-300 font-bold"></h1>
+            <p id="description" class="text-white text-sm sm:text-base md:text-lg lg:text-xl py-6" style="white-space: pre-wrap;">
             </p>
-            <a href="https://m.me/bartosz.cempura" class="btn btn-primary">Odezwij się</a>
+            <a id="contactMe" href="https://m.me/bartosz.cempura" class="btn btn-primary">Odezwij się</a>
           </div>
         </div>
       </div>
