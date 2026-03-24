@@ -39,7 +39,43 @@ na rozwiązywanie problemów i tworzenie rzeczy wyjątkowych.`,
     hi: "Cześć !!!",
     wt1: "Szukasz człowieka ",
     wt2: "z wyobraźnią ??",
-    contactMe: "Odezwij się"
+    contactMe: "Odezwij się",
+    lt1: "M",
+    lt2: "O",
+    lt3: "J",
+    lt4: "E",
+    ll1: "P",
+    ll2: "R",
+    ll3: "A",
+    ll4: "C",
+    ll5: "E",
+    firstBillboardDescription: `Są to propozycje bilboardu promującego inaugurację roku akademiackiego.
+
+Zlecenie realizowane w ramach praktyk zawodowych w dziale promocji Akademii Mazowieckiej w Płocku.
+
+Projekty miały charakteryzować się dystyngowaną, dostojną i luksusową estetyką.
+
+Finalnie wybrano wariant w kolorze czerwonym.`,
+    firstBookCoverTitle: "OKŁADKA KSIĄŻKI",
+    firstBookCoverDescription: `Projekty okładki książki dla wydawnictwa naukowego Akademii Mazowieckiej w Płocku. 
+
+Zaprojektowanie odpowiednio komunikatywnej grafiki stanowiło wyzwanie, ze względu na obszerny zakres treści dzieła.
+
+Ostatecznie autor zdecydował się na wariant drugi, oparty na archiwalnym zdjęciu panoramy miasta.`,
+    secondBookCoverTitle: "OKŁADKA KSIĄŻKI",
+    secondBookCoverDescription: `Projekty okładki książki przygotowane dla wydawnictwa naukowego Akademii Mazowieckiej w Płocku.  
+
+Pierwsza koncepcja jest to metafora dla pokonywania przeszkód i rozwiązywania problemów.
+
+Druga propozycja to abstrakcyjna reprezentacja zależności, z jednego kręgu wynika kolejny.
+
+Ostatecznie autor zdecydował się na wariant pierwszy.`,
+    firstWebpageTitle: "STRONA WEB",
+    firstWebpageDescription: `Strona internetowa zaprojektowana dla Płockiego Towarzystwa Lekarskiego.
+
+Projekt zrealizowany za pośrednictwem środowiska Wordpress, z użyciem motywu AVADA.
+
+Zgodnie z wytycznymi zleceniodawcy.`
   },
   EN: {
     description: `Maybe not the youngest by birth date, but still fresh in spirit and hungry for new challenges.
@@ -56,7 +92,43 @@ on solving problems and creating meaningful things.`,
     hi: "Hey there !!!",
     wt1: "Looking for a person ",
     wt2: "with imagination ??",
-    contactMe: "Contact me"
+    contactMe: "Contact me",
+    lt1: " ",
+    lt2: "M",
+    lt3: "Y",
+    lt4: " ",
+    ll1: "W",
+    ll2: "O",
+    ll3: "R",
+    ll4: "K",
+    ll5: "S",
+    firstBillboardDescription: `These are proposals for a billboard promoting the inauguration of the academic year.
+
+The project was carried out as part of a professional internship in the promotion department of the Mazovian University in Płock.
+
+The designs were to be characterized by a distinguished, dignified, and luxurious aesthetic.
+
+The red version was ultimately selected.`,
+    firstBookCoverTitle: "BOOK COVER",
+    firstBookCoverDescription: `Book cover designs for the academic publishing house of the Mazovian Academy in Płock.
+
+Designing a suitably communicative graphic was a challenge due to the extensive scope of the work's content.
+
+Ultimately, the author opted for the second option, based on an archival photograph of the city's panorama.`,
+    secondBookCoverTitle: "BOOK COVER",
+    secondBookCoverDescription: `Book cover designs prepared for the academic publishing house of the Mazovian Academy in Płock.
+
+The first concept is a metaphor for overcoming obstacles and solving problems.
+
+The second proposal is an abstract representation of relationships, where one circle leads to another.
+
+Ultimately, the author decided on the first option.`,
+    firstWebpageTitle: "WEBPAGE",
+    firstWebpageDescription: `Website designed for the Płock Medical Society.
+
+Project implemented using WordPress, and AVADA theme.
+
+According to the client's guidelines.`
   }
 };
 
@@ -66,6 +138,22 @@ function applyLanguage(lang) {
   document.getElementById('wt1').textContent = transalations[lang].wt1;
   document.getElementById('wt2').textContent = transalations[lang].wt2;
   document.getElementById('contactMe').textContent = transalations[lang].contactMe;
+  document.getElementById('lt1').textContent = transalations[lang].lt1;
+  document.getElementById('lt2').textContent = transalations[lang].lt2;
+  document.getElementById('lt3').textContent = transalations[lang].lt3;
+  document.getElementById('lt4').textContent = transalations[lang].lt4;
+  document.getElementById('ll1').textContent = transalations[lang].ll1;
+  document.getElementById('ll2').textContent = transalations[lang].ll2;
+  document.getElementById('ll3').textContent = transalations[lang].ll3;
+  document.getElementById('ll4').textContent = transalations[lang].ll4;
+  document.getElementById('ll5').textContent = transalations[lang].ll5;
+  document.getElementById('firstBillboardDescription').textContent = transalations[lang].firstBillboardDescription;
+  document.getElementById('firstBookCoverTitle').textContent = transalations[lang].firstBookCoverTitle;
+  document.getElementById('firstBookCoverDescription').textContent = transalations[lang].firstBookCoverDescription;
+  document.getElementById('secondBookCoverTitle').textContent = transalations[lang].secondBookCoverTitle;
+  document.getElementById('secondBookCoverDescription').textContent = transalations[lang].secondBookCoverDescription;
+  document.getElementById('firstWebpageTitle').textContent = transalations[lang].firstWebpageTitle;
+  document.getElementById('firstWebpageDescription').textContent = transalations[lang].firstWebpageDescription;
 }
 
   document.addEventListener('DOMContentLoaded', function() {

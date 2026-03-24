@@ -61,9 +61,8 @@ class="fixed right-0 top-1/2 -translate-y-1/2 h-40 w-4 bg-white z-45 rounded-l-l
           <img src="assets/Zdjęcie nowe.jpg" class="w-48 md:w-64 lg:w-80 xl:w-96 rounded-lg" />
           <div class="bg-black p-6">
             <h1 id="hi" class="text-3xl md:text-5xl lg:text-6xl text-amber-300 font-bold"></h1>
-            <p id="description" class="text-white text-sm sm:text-base md:text-lg lg:text-xl py-6" style="white-space: pre-wrap;">
-            </p>
-            <a id="contactMe" href="https://m.me/bartosz.cempura" class="btn btn-primary">Odezwij się</a>
+            <p id="description" class="text-white text-sm sm:text-base md:text-lg lg:text-xl py-6" style="white-space: pre-wrap;"></p>
+            <a id="contactMe" href="https://m.me/bartosz.cempura" class="btn btn-primary"></a>
           </div>
         </div>
       </div>
@@ -73,74 +72,55 @@ class="fixed right-0 top-1/2 -translate-y-1/2 h-40 w-4 bg-white z-45 rounded-l-l
    <!-- Sekcja galeria -->
   <section class="lg:mt-25 md:mt-20 mt-15 mb-40">
     <div class="flex justify-center sm:ml-18 md:ml-35 lg:ml-58 xl:ml-60 ml-17 mb-10">
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super lg:mr-8 mr-5">M</p></div>
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super lg:mr-8 mr-5">O</p></div>
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super lg:mr-8 mr-5">J</p></div>
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super lg:mr-8 mr-5">E</p></div>
+        <div  class="flex justify-center"><p id="lt1" class="lg:text-super md:text-super text-super lg:mr-8 mr-5"></p></div>
+        <div  class="flex justify-center"><p id="lt2" class="lg:text-super md:text-super text-super lg:mr-8 mr-5"></p></div>
+        <div  class="flex justify-center"><p id="lt3" class="lg:text-super md:text-super text-super lg:mr-8 mr-5"></p></div>
+        <div  class="flex justify-center"><p id="lt4" class="lg:text-super md:text-super text-super lg:mr-8 mr-5"></p></div>
     </div>
 <div class="flex">
     <div id="1" class="lg:px-20 md:px-15 px-10">
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super">P</p></div>
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super">R</p></div>
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super">A</p></div>
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super">C</p></div>
-        <div class="flex justify-center"><p class="lg:text-super md:text-super text-super">E</p></div>
+        <div  class="flex justify-center"><p id="ll1" class="lg:text-super md:text-super text-super"></p></div>
+        <div  class="flex justify-center"><p id="ll2" class="lg:text-super md:text-super text-super"></p></div>
+        <div  class="flex justify-center"><p id="ll3" class="lg:text-super md:text-super text-super"></p></div>
+        <div  class="flex justify-center"><p id="ll4" class="lg:text-super md:text-super text-super"></p></div>
+        <div  class="flex justify-center"><p id="ll5" class="lg:text-super md:text-super text-super"></p></div>
     </div>
 
 <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-12 mr-20 lg:mt-10 mt-5">
 
   <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
     <div class="bg-black rounded-t-lg ">
-      <p class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">BILBOARD</p>
+      <p class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">BILLBOARD</p>
     </div>
       <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-black" src="assets/składak bilboard.png" alt=""></a>
       <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-      <p class="text-white hidden">Są to propozycje bilboardu promującego inaugurację roku akademiackiego.
-        <br/>
-        Zlecenie realizowane w ramach praktyk zawodowych w dziale promocji Akademii Mazowieckiej w Płocku.
-        <br/>
-        Projekty miały charakteryzować się dystyngowaną, dostojną i luksusową estetyką.
-         <br/>
-        Finalnie wybrano wariant w kolorze czerwonym.
-      </p>
+      <p id="firstBillboardDescription" class="text-white hidden"></p>
       <!--------------------------------- --------------- ---------------------------------------->
   </div>
 
   <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
     <div class="bg-black rounded-t-lg ">
-      <p class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">OKŁADKA KSIĄŻKI</p>
+      <p id="firstBookCoverTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
     </div>
       <a href="#" id="overlay-trigger"><img class="h-auto w-auto " src="assets/składanka portfolio ksiązka2.png" alt=""></a>
       <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-      <p class="text-white hidden">Projekty okładki książki dla wydawnictwa naukowego Akademii Mazowieckiej w Płocku. 
-        <br/> 
-        Zaprojektowanie odpowiednio komunikatywnej grafiki stanowiło wyzwanie, ze względu na obszerny zakres treści dzieła.
-        <br/>
-        Ostatecznie autor zdecydował się na wariant drugi, oparty na archiwalnym zdjęciu panoramy miasta.
-      </p>
+      <p id="firstBookCoverDescription" class="text-white hidden"></p>
       <!--------------------------------- --------------- ---------------------------------------->
   </div>
 
   <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
     <div class="bg-black rounded-t-lg ">
-      <p class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">OKŁADKA KSIĄŻKI</p>
+      <p id="secondBookCoverTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
     </div>
       <a href="#" id="overlay-trigger"><img class="h-auto w-auto " src="assets/skladanka ksiazka 1.png" alt=""></a>
       <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-      <p class="text-white hidden">Projekty okładki książki przygotowane dla wydawnictwa naukowego Akademii Mazowieckiej w Płocku.  
-        <br/>
-        Pierwsza koncepcja jest to metafora dla pokonywania przeszkód i rozwiązywania problemów.
-        <br/>
-        Druga propozycja to abstrakcyjna reprezentacja zależności, z jednego kręgu wynika kolejny.
-        <br/>
-        Ostatecznie autor zdecydował się na wariant pierwszy.
-      </p>
+      <p id="secondBookCoverDescription"class="text-white hidden"></p>
       <!--------------------------------- --------------- ---------------------------------------->
   </div>
 
   <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
     <div class="bg-black rounded-t-lg ">
-      <p class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">STRONA WEB</p>
+      <p id="firstWebpageTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">STRONA WEB</p>
     </div>
     <div class="relative">
       <a href="#" id="overlay-trigger">
@@ -156,12 +136,7 @@ class="fixed right-0 top-1/2 -translate-y-1/2 h-40 w-4 bg-white z-45 rounded-l-l
       </div>
     </div>
     <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-    <p class="text-white hidden">Strona internetowa zaprojektowana dla Płockiego Towarzystwa Lekarskiego.
-      <br/>
-      Projekt zrealizowany za pośrednictwem środowiska Wordpress, z użyciem motywu AVADA.
-      <br/>
-      Zgodnie z wytycznymi zleceniodawcy.
-    </p>
+    <p id="firstWebpageDescription" class="text-white hidden"></p>
     <!--------------------------------- --------------- ---------------------------------------->
     </div>
 
@@ -347,7 +322,7 @@ class="fixed right-0 top-1/2 -translate-y-1/2 h-40 w-4 bg-white z-45 rounded-l-l
 
   </section>
 
-  <!--------------------- okno lverlay na daną prace---------------->
+  <!--------------------- okno overlay na daną prace---------------->
   <div id="fullscreen-overlay" class="fixed inset-0 flex justify-center items-center opacity-0 invisible transition-opacity duration-200 ease-in-out z-50">
 
     <div class="absolute inset-0 bg-black opacity-95"></div>
