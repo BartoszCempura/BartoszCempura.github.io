@@ -75,7 +75,33 @@ Ostatecznie autor zdecydował się na wariant pierwszy.`,
 
 Projekt zrealizowany za pośrednictwem środowiska Wordpress, z użyciem motywu AVADA.
 
-Zgodnie z wytycznymi zleceniodawcy.`
+Zgodnie z wytycznymi zleceniodawcy.`,
+    firstPoster: "PLAKAT",
+    firstPosterDescription: `Projekt plakatu oraz logotypu dla festiwalu realizowanego we współpracy z Młodzieżowym Domem Kultury w Bydgoszczy.
+
+Jest to jedna z pierwszych moich prac graficznych, która trafiła do szerszego grona odbiorców.`,
+    secondPoster: "PLAKAT",
+    secondPosterDescription: `Plakat wykonany na zlecenie Teatru Dramatycznego w Płocku.
+
+Początkowo koncepcja miała nawiązywać stylistycznie do malarstwa Marca Chagalla, jednak ze względu na czytelność przekazu zdecydowano się na uproszczenie formy.
+
+Ilustracja została wykorzystana w informatorze promującym spektakl.`,
+    thirdPoster: "PLAKAT",
+    thirdPosterDescription: `Plakat zaprojektowany na zlecenie aktorów Teatru Dramatycznego w Płocku.
+
+Dramat został wyprodukowany i zrealizowany w ramach Sceny Inicjatyw Płockiego teatru.`,
+    fourthPoster: "PLAKAT",
+    fourthPosterDescription: `Plakat promujący rekrutację osób dojrzałych do klubu sportowego UKS Judo Kano Płock.
+
+Został on umieszczony na tablicach ogłoszeniowych w szkołach średnich oraz uczelniach wyższych.`,
+    firstTshirt: "KOSZULKA",
+    firstTshirtDescription: `Projekt koszulki klubowej dla UKS Judo Kano Płock. 
+
+Na froncie umieszczono logo klubu, wraz z japońskimi znakami „ju” oraz symbolem „Kano
+
+Na plecach znajduje się grafika w stylu „low poly art”, oraz znaki składające sie na słowo Judo.`,
+    techTitle1: "Tym",
+    techTitle2: "się bawie:"
   },
   EN: {
     description: `Maybe not the youngest by birth date, but still fresh in spirit and hungry for new challenges.
@@ -128,7 +154,33 @@ Ultimately, the author decided on the first option.`,
 
 Project implemented using WordPress, and AVADA theme.
 
-According to the client's guidelines.`
+According to the client's guidelines.`,
+    firstPoster: "POSTER",
+    firstPosterDescription: `A poster and logo design for a festival organized in collaboration with the Youth Cultural Center in Bydgoszcz.
+
+This is one of my first graphic works to reach a wider audience.`,
+    secondPoster: "POSTER",
+    secondPosterDescription: `This poster was commissioned by the Dramatic Theatre in Płock.
+
+The concept was initially intended to be stylistically inspired by the paintings of Marc Chagall, but for clarity of message, a simplified form was chosen.
+
+The illustration was used in a brochure promoting the play.`,
+    thirdPoster: "POSTER",
+    thirdPosterDescription: `A poster commissioned by the actors of the Dramatic Theatre in Płock.
+
+The play was produced and performed as part of the Płock Theatre's Initiative Stage.`,
+    fourthPoster: "POSTER",
+    fourthPosterDescription: `A poster promoting the recruitment of mature individuals for the UKS Judo Kano Płock sports club.
+
+It was posted on noticeboards in secondary schools and universities.`,
+    firstTshirt: "T-SHIRT",
+    firstTshirtDescription: `Club t-shirt design for UKS Judo Kano Płock.
+
+The front features the club logo, along with the Japanese characters "ju" and the symbol "Kano."
+
+The back features a low-poly art graphic and characters spelling out the word "Judo."`,
+    techTitle1: "This is",
+    techTitle2: "what I play with:"
   }
 };
 
@@ -154,6 +206,18 @@ function applyLanguage(lang) {
   document.getElementById('secondBookCoverDescription').textContent = transalations[lang].secondBookCoverDescription;
   document.getElementById('firstWebpageTitle').textContent = transalations[lang].firstWebpageTitle;
   document.getElementById('firstWebpageDescription').textContent = transalations[lang].firstWebpageDescription;
+  document.getElementById('firstPoster').textContent = transalations[lang].firstPoster;
+  document.getElementById('firstPosterDescription').textContent = transalations[lang].firstPosterDescription;
+  document.getElementById('secondPoster').textContent = transalations[lang].secondPoster;
+  document.getElementById('secondPosterDescription').textContent = transalations[lang].secondPosterDescription;
+  document.getElementById('thirdPoster').textContent = transalations[lang].thirdPoster;
+  document.getElementById('thirdPosterDescription').textContent = transalations[lang].thirdPosterDescription;
+  document.getElementById('fourthPoster').textContent = transalations[lang].fourthPoster;
+  document.getElementById('fourthPosterDescription').textContent = transalations[lang].fourthPosterDescription;
+  document.getElementById('firstTshirt').textContent = transalations[lang].firstTshirt;
+  document.getElementById('firstTshirtDescription').textContent = transalations[lang].firstTshirtDescription;
+  document.getElementById('techTitle1').textContent = transalations[lang].techTitle1;
+  document.getElementById('techTitle2').textContent = transalations[lang].techTitle2;
 }
 
   document.addEventListener('DOMContentLoaded', function() {
