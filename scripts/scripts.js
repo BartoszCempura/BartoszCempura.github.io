@@ -321,3 +321,20 @@ button.addEventListener('click', () => {
     clearTimeout(hideTimeout);
   }
 });
+
+const stickyEl = document.getElementById('galleryStart');
+const endEl = document.getElementById('galleryEnd');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      stickyEl.classList.remove('sticky', 'top-3');
+      stickyEl.classList.add('not-sticky');
+    } else {
+      stickyEl.classList.add('sticky', 'top-3');
+      stickyEl.classList.remove('not-sticky');
+    }
+  });
+}, { threshold: 0 });
+
+observer.observe(endEl);

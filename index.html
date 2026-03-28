@@ -71,14 +71,15 @@ class="fixed right-0 top-1/2 -translate-y-1/2 h-40 w-4 bg-white z-45 rounded-l-l
 
    <!-- Sekcja galeria -->
   <section class="lg:mt-25 md:mt-20 mt-15 mb-40">
-    <div class="flex justify-center sm:ml-18 md:ml-35 lg:ml-58 xl:ml-60 ml-17 mb-10">
+
+    <div id="galleryStart" class="flex justify-center sm:ml-18 md:ml-35 lg:ml-58 xl:ml-60 ml-17 mb-10">
         <div  class="flex justify-center"><p id="lt1" class="lg:text-super md:text-super text-super lg:mr-8 mr-5"></p></div>
         <div  class="flex justify-center"><p id="lt2" class="lg:text-super md:text-super text-super lg:mr-8 mr-5"></p></div>
         <div  class="flex justify-center"><p id="lt3" class="lg:text-super md:text-super text-super lg:mr-8 mr-5"></p></div>
         <div  class="flex justify-center"><p id="lt4" class="lg:text-super md:text-super text-super lg:mr-8 mr-5"></p></div>
     </div>
 <div class="flex">
-    <div id="1" class="lg:px-20 md:px-15 px-10">
+    <div id="1" class="sticky top-30 self-start lg:px-20 md:px-15 px-10">
         <div  class="flex justify-center"><p id="ll1" class="lg:text-super md:text-super text-super"></p></div>
         <div  class="flex justify-center"><p id="ll2" class="lg:text-super md:text-super text-super"></p></div>
         <div  class="flex justify-center"><p id="ll3" class="lg:text-super md:text-super text-super"></p></div>
@@ -86,118 +87,139 @@ class="fixed right-0 top-1/2 -translate-y-1/2 h-40 w-4 bg-white z-45 rounded-l-l
         <div  class="flex justify-center"><p id="ll5" class="lg:text-super md:text-super text-super"></p></div>
     </div>
 
-<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-12 mr-20 lg:mt-10 mt-5">
+<!--<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-12 mr-20 lg:mt-10 mt-5">-->
+      <div class="portfolio-stack">
 
-  <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-    <div class="bg-black rounded-t-lg ">
-      <p class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">BILLBOARD</p>
-    </div>
-      <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-black" src="assets/składak bilboard.png" alt=""></a>
-      <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-      <p id="firstBillboardDescription" class="text-white hidden"></p>
-      <!--------------------------------- --------------- ---------------------------------------->
-  </div>
+        <article class="portfolio-card">
+          <div class="rounded-t-lg">
+            <div class="bg-black rounded-t-lg ">
+              <p class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">BILLBOARD</p>
+            </div>
+              <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-black" src="assets/składak bilboard.png" alt=""></a>
+              <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+              <p id="firstBillboardDescription" class="text-white hidden"></p>
+              <!--------------------------------- --------------- ---------------------------------------->
+          </div>
+        </article>
 
-  <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-    <div class="bg-black rounded-t-lg ">
-      <p id="firstBookCoverTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
-    </div>
-      <a href="#" id="overlay-trigger"><img class="h-auto w-auto " src="assets/składanka portfolio ksiązka2.png" alt=""></a>
-      <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-      <p id="firstBookCoverDescription" class="text-white hidden"></p>
-      <!--------------------------------- --------------- ---------------------------------------->
-  </div>
+        <article class="portfolio-card">
+          <div class="rounded-t-lg">
+            <div class="bg-black rounded-t-lg ">
+              <p id="firstBookCoverTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
+            </div>
+              <a href="#" id="overlay-trigger"><img class="h-auto w-auto " src="assets/składanka portfolio ksiązka2.png" alt=""></a>
+              <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+              <p id="firstBookCoverDescription" class="text-white hidden"></p>
+              <!--------------------------------- --------------- ---------------------------------------->
+          </div>
+        </article>
 
-  <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-    <div class="bg-black rounded-t-lg ">
-      <p id="secondBookCoverTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
-    </div>
-      <a href="#" id="overlay-trigger"><img class="h-auto w-auto " src="assets/skladanka ksiazka 1.png" alt=""></a>
-      <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-      <p id="secondBookCoverDescription"class="text-white hidden"></p>
-      <!--------------------------------- --------------- ---------------------------------------->
-  </div>
+          <article class="portfolio-card">
+            <div class="rounded-t-lg">
+              <div class="bg-black rounded-t-lg ">
+                <p id="secondBookCoverTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
+              </div>
+                <a href="#" id="overlay-trigger"><img class="h-auto w-auto " src="assets/skladanka ksiazka 1.png" alt=""></a>
+                <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+                <p id="secondBookCoverDescription"class="text-white hidden"></p>
+                <!--------------------------------- --------------- ---------------------------------------->
+            </div>
+          </article>
 
-  <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-    <div class="bg-black rounded-t-lg ">
-      <p id="firstWebpageTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">STRONA WEB</p>
-    </div>
-    <div class="relative">
-      <a href="#" id="overlay-trigger">
-        <img class="h-auto w-auto" src="assets/PTL_Background.png" alt="">
-      </a>
-      <!-- Button positioned over the image -->
-      <div class="absolute top-5 right-5">
-        <a href="assets/PTL Płock.html" target="_blank" class="icon-redirrect">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="48" height="48"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path fill="currentColor" d="M432 320H400a16 16 0 0 0 -16 16V448H64V128H208a16 16 0 0 0 16-16V80a16 16 0 0 0 -16-16H48A48 48 0 0 0 0 112V464a48 48 0 0 0 48 48H400a48 48 0 0 0 48-48V336A16 16 0 0 0 432 320zM488 0h-128c-21.4 0-32.1 25.9-17 41l35.7 35.7L135 320.4a24 24 0 0 0 0 34L157.7 377a24 24 0 0 0 34 0L435.3 133.3 471 169c15 15 41 4.5 41-17V24A24 24 0 0 0 488 0z"/>
-          </svg>
-        </a>
+          <article class="portfolio-card">
+            <div class="rounded-t-lg">
+              <div class="bg-black rounded-t-lg ">
+                <p id="firstWebpageTitle" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold">STRONA WEB</p>
+              </div>
+              <div class="relative">
+                <a href="#" id="overlay-trigger">
+                  <img class="h-auto w-auto" src="assets/PTL_Background.png" alt="">
+                </a>
+                <!-- Button positioned over the image -->
+                <div class="absolute top-5 right-5">
+                  <a href="assets/PTL Płock.html" target="_blank" class="icon-redirrect">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="48" height="48"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path fill="currentColor" d="M432 320H400a16 16 0 0 0 -16 16V448H64V128H208a16 16 0 0 0 16-16V80a16 16 0 0 0 -16-16H48A48 48 0 0 0 0 112V464a48 48 0 0 0 48 48H400a48 48 0 0 0 48-48V336A16 16 0 0 0 432 320zM488 0h-128c-21.4 0-32.1 25.9-17 41l35.7 35.7L135 320.4a24 24 0 0 0 0 34L157.7 377a24 24 0 0 0 34 0L435.3 133.3 471 169c15 15 41 4.5 41-17V24A24 24 0 0 0 488 0z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+              <p id="firstWebpageDescription" class="text-white hidden"></p>
+              <!--------------------------------- --------------- ---------------------------------------->
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="rounded-t-lg">
+              <div class="bg-black rounded-t-lg ">
+                <p id="firstPoster" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
+              </div>
+                <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-black" src="assets/plakat ACT festiwal.png" alt=""></a>
+                <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+                <p id="firstPosterDescription" class="text-white hidden"></p>
+                <!--------------------------------- --------------- ---------------------------------------->
+            </div>
+          </article>
+        
+          <article class="portfolio-card">
+            <div class="rounded-t-lg">
+              <div class="bg-black rounded-t-lg ">
+                <p id="secondPoster" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p> <!-- tytuł pracy -->
+              </div>
+                <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-white" src="assets/Gdyby można było no spady.png" alt=""></a>
+                <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+                <p id="secondPosterDescription" class="text-white hidden"></p>
+                <!--------------------------------- --------------- ---------------------------------------->
+                <img class="h-auto w-auto hidden" src="assets/Gdyby można było Raciąż  Ilustracja.png" alt="">
+            </div>
+          </article>
+        
+          <article class="portfolio-card">
+            <div class="rounded-t-lg">
+              <div class="bg-black rounded-t-lg ">
+                <p id="thirdPoster" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p> <!-- tytuł pracy -->
+              </div>
+                <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-white" src="assets/Na pełnym Morzu Plakat.png" alt=""></a>
+                <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+                <p id="thirdPosterDescription" class="text-white hidden"></p>
+                <!--------------------------------- --------------- ---------------------------------------->
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="rounded-t-lg">
+              <div class="bg-black rounded-t-lg ">
+                <p id="fourthPoster" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
+              </div>
+                <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-black" src="assets/plakat judo mockup.png" alt=""></a>
+                <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+                <p id="fourthPosterDescription" class="text-white hidden"></p>
+                <!--------------------------------- --------------- ---------------------------------------->
+                <img id="JudoPlakat" class="h-auto w-auto hidden" src="assets/JudoPlakat.png" alt="">
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="rounded-t-lg">
+              <div class="bg-black  rounded-t-lg ">
+                <p id="firstTshirt" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p> <!-- tytuł pracy -->
+              </div>
+                <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-white" src="assets/judo koszul BACK.png" alt=""></a>
+                <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
+                <p id="firstTshirtDescription" class="text-white hidden"></p>
+                <!--------------------------------- --------------- ---------------------------------------->
+                <img class="h-auto w-auto hidden" src="assets/judo koszul FRONT.png" alt="">
+            </div>
+          </article>
+
+          <article id="galleryEnd" style="height: 80vh; background: red"></article> 
+
       </div>
     </div>
-    <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-    <p id="firstWebpageDescription" class="text-white hidden"></p>
-    <!--------------------------------- --------------- ---------------------------------------->
-    </div>
-
-    <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-      <div class="bg-black rounded-t-lg ">
-        <p id="firstPoster" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
-      </div>
-        <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-black" src="assets/plakat ACT festiwal.png" alt=""></a>
-        <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-        <p id="firstPosterDescription" class="text-white hidden"></p>
-        <!--------------------------------- --------------- ---------------------------------------->
-    </div>
-  
-    <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-      <div class="bg-black rounded-t-lg ">
-        <p id="secondPoster" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p> <!-- tytuł pracy -->
-      </div>
-        <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-white" src="assets/Gdyby można było no spady.png" alt=""></a>
-        <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-        <p id="secondPosterDescription" class="text-white hidden"></p>
-        <!--------------------------------- --------------- ---------------------------------------->
-        <img class="h-auto w-auto hidden" src="assets/Gdyby można było Raciąż  Ilustracja.png" alt="">
-    </div>
-  
-    <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-      <div class="bg-black rounded-t-lg ">
-        <p id="thirdPoster" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p> <!-- tytuł pracy -->
-      </div>
-        <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-white" src="assets/Na pełnym Morzu Plakat.png" alt=""></a>
-        <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-        <p id="thirdPosterDescription" class="text-white hidden"></p>
-        <!--------------------------------- --------------- ---------------------------------------->
-    </div>
-
-    <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-      <div class="bg-black rounded-t-lg ">
-        <p id="fourthPoster" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p>
-      </div>
-        <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-black" src="assets/plakat judo mockup.png" alt=""></a>
-        <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-        <p id="fourthPosterDescription" class="text-white hidden"></p>
-        <!--------------------------------- --------------- ---------------------------------------->
-        <img id="JudoPlakat" class="h-auto w-auto hidden" src="assets/JudoPlakat.png" alt="">
-    </div>
-
-    <div class="transition-all duration-200 hover:scale-105 hover:border-yellow-500 hover:border-2 rounded-t-lg">
-      <div class="bg-black rounded-t-lg ">
-        <p id="firstTshirt" class="text-white text-base md:text-base lg:text-sm xl:text-base px-5 py-3 font-bold"></p> <!-- tytuł pracy -->
-      </div>
-        <a href="#" id="overlay-trigger"><img class="h-auto w-auto bg-white" src="assets/judo koszul BACK.png" alt=""></a>
-        <!--------------------------------- pisz tutaj opis pracy ---------------------------------------->
-        <p id="firstTshirtDescription" class="text-white hidden"></p>
-        <!--------------------------------- --------------- ---------------------------------------->
-        <img class="h-auto w-auto hidden" src="assets/judo koszul FRONT.png" alt="">
-    </div>
-
-    
-</div>
-  
-</div>
   </section>
+
+<!-----------------------------  Sekcja technologii --------------->
 
   <section class="relative container-pattern min-h-screen bg-black px-4 pt-8 pb-20">
     <div class="w-full flex justify-center mb-18 mt-8">
