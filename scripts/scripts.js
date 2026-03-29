@@ -221,7 +221,7 @@ function applyLanguage(lang) {
 }
 
   document.addEventListener('DOMContentLoaded', function() {
-    const triggers = document.querySelectorAll('#overlay-trigger');
+    const triggers = document.querySelectorAll('.overlay-trigger');
     const overlay = document.getElementById('fullscreen-overlay');
     const overlayImageFirst = document.getElementById('overlay-image-first');
     const overlayImageSecond = document.getElementById('overlay-image-second');
@@ -250,7 +250,7 @@ function applyLanguage(lang) {
       trigger.addEventListener('click', function(e) {
         e.preventDefault();
   
-      const galleryItem = this.closest('.transition-all');
+      const galleryItem = this.closest('.portfolio-card');
 
       const images = galleryItem.querySelectorAll('img');
       overlayImageFirst.src = images[0].src;
@@ -321,20 +321,3 @@ button.addEventListener('click', () => {
     clearTimeout(hideTimeout);
   }
 });
-
-const stickyEl = document.getElementById('galleryStart');
-const endEl = document.getElementById('galleryEnd');
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      stickyEl.classList.remove('sticky', 'top-3');
-      stickyEl.classList.add('not-sticky');
-    } else {
-      stickyEl.classList.add('sticky', 'top-3');
-      stickyEl.classList.remove('not-sticky');
-    }
-  });
-}, { threshold: 0 });
-
-observer.observe(endEl);
