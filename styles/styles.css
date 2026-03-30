@@ -110,8 +110,6 @@
 .arrow
 {
   position: relative;
-  left: 50%;
-  margin-left:-20px;
   width: 40px;
   height: 40px;
 
@@ -169,12 +167,3 @@
   margin-right: auto;
   z-index: 1;
 }
-
-.is-sticky {
-  position: sticky;
-  top: 0.75rem;
-}
-.not-sticky {
-  position: static;
-}
-
