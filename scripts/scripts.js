@@ -23,23 +23,17 @@ function setButtonState(button, lang) {
     }
 }
 
-const transalations = {
+const translations = {
   PL: {
-    description: `Z peselu może już nie najmłodszy, ale duchem wciąż świeży i głodny nowych wyzwań.
-Zanim technologia skradła mi serce, próbowałem wielu dróg.
-                  
-Z wychowania aktor, plastyk. Z wykształcenia informatyk, muzyk, filozof.
-Z pasji, cyfrowy rzemieślnik.
-                             
-Wierzę, że to właśnie szczegóły robią różnicę, 
-dlatego w każdy projekt wchodzę na pełnych obrotach.
-                  
-Ta mieszanka doświadzczeń daje mi unikalną perspektywę
-na rozwiązywanie problemów i tworzenie rzeczy wyjątkowych.`,
-    hi: "Cześć !!!",
-    wt1: "Szukasz człowieka ",
-    wt2: "z wyobraźnią ??",
-    contactMe: "Odezwij się",
+    description: `Tworzę strony internetowe i grafikę, łącząc<span class="text-amber-300"> funkcjonalność z estetyką</span>.
+
+Realizuję <span class="text-amber-300">własne projekty</span>, dzięki którym rozwijam umiejętności i poznaję proces tworzenia od pomysłu do gotowego rozwiązania. Obecnie szukam możliwości zdobycia pierwszego doświadczenia zawodowego.
+
+W pracy stawiam na <span class="text-amber-300">dokładność, zaangażowanie i dbałość o detale</span>.`,
+    hi1: "Bartosz Cempura",
+    hi2: " - Web Developer & Grafik",
+    wt: `Szukasz kogoś, kto łączy<span class=text-amber-300> technikę z wyobraźnią?</span>`,
+    contactMe: "Napisz do mnie",
     lt1: "M",
     lt2: "O",
     lt3: "J",
@@ -103,21 +97,21 @@ Na plecach znajduje się grafika w stylu „low poly art”, oraz znaki składaj
     techTitle1: "Tym",
     techTitle2: "się bawie:",
     media1: "Inne",
-    media2: "media"
+    media2: "media",
+    formTitle: "Porozmawiajmy",
+    namePlaceholder: "Twoje imię",
+    emailPlaceholder: "Twój email",
+    messagePlaceholder: "Twoja wiadomość",
+    formDescription: `*Wiadomość zostanie wysłana na mój e-mail. Odpowiem tak szybko, jak to możliwe.`
   },
   EN: {
-    description: `Maybe not the youngest by birth date, but still fresh in spirit and hungry for new challenges.
-Before technology stole my heart, I tried many paths.
+    description: `I create websites and graphics, combining <span class="text-amber-300">functionality with aesthetics</span>.
 
-Raised as an actor and visual artist. Educated as an IT specialist, musician, and philosopher.
-By passion, a digital craftsman.
-           
-I believe its the details that make the difference, 
-thats why I give my all to every project.
+I work on <span class="text-amber-300">my own projects</span>, which allow me to develop my skills and learn the process of creating from concept to finished solution. I am currently seeking an opportunity to gain my first professional experience.
 
-This mix of experiences gives me a unique perspective
-on solving problems and creating meaningful things.`,
-    hi: "Hey there !!!",
+In my work, I prioritize <span class="text-amber-300">accuracy, commitment, and attention to detail</span>.`,
+    hi1: "Bartosz Cempura",
+    hi2: "- Web Developer & Graphic Designer",
     wt1: "Looking for a person ",
     wt2: "with imagination ??",
     contactMe: "Contact me",
@@ -184,46 +178,56 @@ The back features a low-poly art graphic and characters spelling out the word "J
     techTitle1: "This is",
     techTitle2: "what I play with:",
     media1: "Other",
-    media2: "media"
+    media2: "media",
+    formTitle: "Let's talk",
+    namePlaceholder: "Your name",
+    emailPlaceholder: "Your email",
+    messagePlaceholder: "Your message",
+    formDescription: `*The message will be sent to my email. I will respond as soon as possible.`
   }
 };
 
 function applyLanguage(lang) {
-  document.getElementById('description').textContent = transalations[lang].description;
-  document.getElementById('hi').textContent = transalations[lang].hi;
-  document.getElementById('wt1').textContent = transalations[lang].wt1;
-  document.getElementById('wt2').textContent = transalations[lang].wt2;
-  document.getElementById('contactMe').textContent = transalations[lang].contactMe;
-  document.getElementById('lt1').textContent = transalations[lang].lt1;
-  document.getElementById('lt2').textContent = transalations[lang].lt2;
-  document.getElementById('lt3').textContent = transalations[lang].lt3;
-  document.getElementById('lt4').textContent = transalations[lang].lt4;
-  document.getElementById('ll1').textContent = transalations[lang].ll1;
-  document.getElementById('ll2').textContent = transalations[lang].ll2;
-  document.getElementById('ll3').textContent = transalations[lang].ll3;
-  document.getElementById('ll4').textContent = transalations[lang].ll4;
-  document.getElementById('ll5').textContent = transalations[lang].ll5;
-  document.getElementById('firstBillboardDescription').textContent = transalations[lang].firstBillboardDescription;
-  document.getElementById('firstBookCoverTitle').textContent = transalations[lang].firstBookCoverTitle;
-  document.getElementById('firstBookCoverDescription').textContent = transalations[lang].firstBookCoverDescription;
-  document.getElementById('secondBookCoverTitle').textContent = transalations[lang].secondBookCoverTitle;
-  document.getElementById('secondBookCoverDescription').textContent = transalations[lang].secondBookCoverDescription;
-  document.getElementById('firstWebpageTitle').textContent = transalations[lang].firstWebpageTitle;
-  document.getElementById('firstWebpageDescription').textContent = transalations[lang].firstWebpageDescription;
-  document.getElementById('firstPoster').textContent = transalations[lang].firstPoster;
-  document.getElementById('firstPosterDescription').textContent = transalations[lang].firstPosterDescription;
-  document.getElementById('secondPoster').textContent = transalations[lang].secondPoster;
-  document.getElementById('secondPosterDescription').textContent = transalations[lang].secondPosterDescription;
-  document.getElementById('thirdPoster').textContent = transalations[lang].thirdPoster;
-  document.getElementById('thirdPosterDescription').textContent = transalations[lang].thirdPosterDescription;
-  document.getElementById('fourthPoster').textContent = transalations[lang].fourthPoster;
-  document.getElementById('fourthPosterDescription').textContent = transalations[lang].fourthPosterDescription;
-  document.getElementById('firstTshirt').textContent = transalations[lang].firstTshirt;
-  document.getElementById('firstTshirtDescription').textContent = transalations[lang].firstTshirtDescription;
-  document.getElementById('techTitle1').textContent = transalations[lang].techTitle1;
-  document.getElementById('techTitle2').textContent = transalations[lang].techTitle2;
-  document.getElementById('media1').textContent = transalations[lang].media1;
-  document.getElementById('media2').textContent = transalations[lang].media2;
+  document.getElementById('description').innerHTML = translations[lang].description;
+  document.getElementById('hi1').textContent = translations[lang].hi1;
+  document.getElementById('hi2').textContent = translations[lang].hi2;
+  document.getElementById('wt').innerHTML = translations[lang].wt;
+  document.getElementById('contactMe').textContent = translations[lang].contactMe;
+  document.getElementById('lt1').textContent = translations[lang].lt1;
+  document.getElementById('lt2').textContent = translations[lang].lt2;
+  document.getElementById('lt3').textContent = translations[lang].lt3;
+  document.getElementById('lt4').textContent = translations[lang].lt4;
+  document.getElementById('ll1').textContent = translations[lang].ll1;
+  document.getElementById('ll2').textContent = translations[lang].ll2;
+  document.getElementById('ll3').textContent = translations[lang].ll3;
+  document.getElementById('ll4').textContent = translations[lang].ll4;
+  document.getElementById('ll5').textContent = translations[lang].ll5;
+  document.getElementById('firstBillboardDescription').textContent = translations[lang].firstBillboardDescription;
+  document.getElementById('firstBookCoverTitle').textContent = translations[lang].firstBookCoverTitle;
+  document.getElementById('firstBookCoverDescription').textContent = translations[lang].firstBookCoverDescription;
+  document.getElementById('secondBookCoverTitle').textContent = translations[lang].secondBookCoverTitle;
+  document.getElementById('secondBookCoverDescription').textContent = translations[lang].secondBookCoverDescription;
+  document.getElementById('firstWebpageTitle').textContent = translations[lang].firstWebpageTitle;
+  document.getElementById('firstWebpageDescription').textContent = translations[lang].firstWebpageDescription;
+  document.getElementById('firstPoster').textContent = translations[lang].firstPoster;
+  document.getElementById('firstPosterDescription').textContent = translations[lang].firstPosterDescription;
+  document.getElementById('secondPoster').textContent = translations[lang].secondPoster;
+  document.getElementById('thirdPosterDescription').textContent = translations[lang].thirdPosterDescription;
+  document.getElementById('fourthPoster').textContent = translations[lang].fourthPoster;
+  document.getElementById('fourthPosterDescription').textContent = translations[lang].fourthPosterDescription;
+  document.getElementById('firstTshirt').textContent = translations[lang].firstTshirt;
+  document.getElementById('firstTshirtDescription').textContent = translations[lang].firstTshirtDescription;
+  document.getElementById('techTitle1').textContent = translations[lang].techTitle1;
+  document.getElementById('techTitle2').textContent = translations[lang].techTitle2;
+  document.getElementById('media1').textContent = translations[lang].media1;
+  document.getElementById('media2').textContent = translations[lang].media2;
+  document.getElementById('formTitle').textContent = translations[lang].formTitle;
+  document.getElementById('formDescription').textContent = translations[lang].formDescription;
+
+  document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-translate-placeholder');
+    el.placeholder = translations[lang][key];
+  });
 }
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -326,5 +330,30 @@ document.addEventListener('DOMContentLoaded', () => {
         gallery.scrollTop = limit;
       }
     });
+  });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const contactBtn = document.getElementById('contactMe');
+  const modal = document.getElementById('contactModal');
+  const closeBtn = document.getElementById('closeContact');
+
+  contactBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    modal.classList.remove('invisible', 'opacity-0');
+    modal.classList.add('opacity-100');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    modal.classList.add('opacity-0');
+    setTimeout(() => modal.classList.add('invisible'), 200);
+  });
+
+  // klik w tło zamyka modal
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      closeBtn.click();
+    }
   });
 });
