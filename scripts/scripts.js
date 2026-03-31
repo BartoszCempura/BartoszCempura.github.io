@@ -321,3 +321,22 @@ button.addEventListener('click', () => {
     clearTimeout(hideTimeout);
   }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const gallery = document.getElementById('gallery');
+  const lastOne = document.getElementById('lastOne');
+
+  if (!gallery || !lastOne) return;
+
+  window.addEventListener('load', () => {
+    const limit = lastOne.offsetTop - gallery.offsetTop 
+                  - (gallery.clientHeight / 2); 
+                 
+
+    gallery.addEventListener('scroll', () => {
+      if (gallery.scrollTop >= limit) {
+        gallery.scrollTop = limit;
+      }
+    });
+  });
+});
