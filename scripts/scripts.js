@@ -101,7 +101,9 @@ Na froncie umieszczono logo klubu, wraz z japońskimi znakami „ju” oraz symb
 
 Na plecach znajduje się grafika w stylu „low poly art”, oraz znaki składające sie na słowo Judo.`,
     techTitle1: "Tym",
-    techTitle2: "się bawie:"
+    techTitle2: "się bawie:",
+    media1: "Inne",
+    media2: "media"
   },
   EN: {
     description: `Maybe not the youngest by birth date, but still fresh in spirit and hungry for new challenges.
@@ -180,7 +182,9 @@ The front features the club logo, along with the Japanese characters "ju" and th
 
 The back features a low-poly art graphic and characters spelling out the word "Judo."`,
     techTitle1: "This is",
-    techTitle2: "what I play with:"
+    techTitle2: "what I play with:",
+    media1: "Other",
+    media2: "media"
   }
 };
 
@@ -218,6 +222,8 @@ function applyLanguage(lang) {
   document.getElementById('firstTshirtDescription').textContent = transalations[lang].firstTshirtDescription;
   document.getElementById('techTitle1').textContent = transalations[lang].techTitle1;
   document.getElementById('techTitle2').textContent = transalations[lang].techTitle2;
+  document.getElementById('media1').textContent = transalations[lang].media1;
+  document.getElementById('media2').textContent = transalations[lang].media2;
 }
 
   document.addEventListener('DOMContentLoaded', function() {

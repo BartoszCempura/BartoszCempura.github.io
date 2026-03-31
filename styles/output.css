@@ -1991,6 +1991,9 @@
   .mb-15 {
     margin-bottom: calc(var(--spacing) * 15);
   }
+  .mb-20 {
+    margin-bottom: calc(var(--spacing) * 20);
+  }
   .ml-0 {
     margin-left: calc(var(--spacing) * 0);
   }
@@ -2695,6 +2698,11 @@
   .md\:mt-7 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 7);
+    }
+  }
+  .md\:mb-0 {
+    @media (width >= 48rem) {
+      margin-bottom: calc(var(--spacing) * 0);
     }
   }
   .md\:mb-20 {
