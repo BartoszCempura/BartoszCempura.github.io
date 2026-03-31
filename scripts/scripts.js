@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('load', () => {
     const limit = lastOne.offsetTop - gallery.offsetTop 
-                  - (gallery.clientHeight / 2); 
+                  - (gallery.clientHeight / 2) - 6; 
                  
 
     gallery.addEventListener('scroll', () => {
