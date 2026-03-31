@@ -94,8 +94,8 @@ Został on umieszczony na tablicach ogłoszeniowych w szkołach średnich oraz u
 Na froncie umieszczono logo klubu, wraz z japońskimi znakami „ju” oraz symbolem „Kano
 
 Na plecach znajduje się grafika w stylu „low poly art”, oraz znaki składające sie na słowo Judo.`,
-    techTitle1: "Tym",
-    techTitle2: "się bawie:",
+    techTitle1: "Technologie, z których ",
+    techTitle2: "korzystam:",
     media1: "Inne",
     media2: "media",
     formTitle: "Porozmawiajmy",
@@ -112,8 +112,7 @@ I work on <span class="text-amber-300">my own projects</span>, which allow me to
 In my work, I prioritize <span class="text-amber-300">accuracy, commitment, and attention to detail</span>.`,
     hi1: "Bartosz Cempura",
     hi2: "- Web Developer & Graphic Designer",
-    wt1: "Looking for a person ",
-    wt2: "with imagination ??",
+    wt: `Looking for someone who combines <span class="text-amber-300">technical skills with creativity ?</span>`,
     contactMe: "Contact me",
     lt1: " ",
     lt2: "M",
@@ -175,8 +174,8 @@ It was posted on noticeboards in secondary schools and universities.`,
 The front features the club logo, along with the Japanese characters "ju" and the symbol "Kano."
 
 The back features a low-poly art graphic and characters spelling out the word "Judo."`,
-    techTitle1: "This is",
-    techTitle2: "what I play with:",
+    techTitle1: "Technologies",
+    techTitle2: " I use:",
     media1: "Other",
     media2: "media",
     formTitle: "Let's talk",
@@ -212,6 +211,7 @@ function applyLanguage(lang) {
   document.getElementById('firstPoster').textContent = translations[lang].firstPoster;
   document.getElementById('firstPosterDescription').textContent = translations[lang].firstPosterDescription;
   document.getElementById('secondPoster').textContent = translations[lang].secondPoster;
+  document.getElementById('thirdPoster').textContent = translations[lang].thirdPoster;
   document.getElementById('thirdPosterDescription').textContent = translations[lang].thirdPosterDescription;
   document.getElementById('fourthPoster').textContent = translations[lang].fourthPoster;
   document.getElementById('fourthPosterDescription').textContent = translations[lang].fourthPosterDescription;

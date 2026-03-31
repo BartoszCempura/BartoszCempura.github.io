@@ -2010,6 +2010,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-15 {
+    margin-block: calc(var(--spacing) * 15);
+  }
   .label {
     display: inline-flex;
     align-items: center;
@@ -2046,6 +2049,9 @@
         }
       }
     }
+  }
+  .mt-0 {
+    margin-top: calc(var(--spacing) * 0);
   }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
@@ -2584,6 +2590,9 @@
   .mask-repeat {
     mask-repeat: repeat;
   }
+  .fill-\[\#D97757\] {
+    fill: #D97757;
+  }
   .fill-current {
     fill: currentcolor;
   }
@@ -2866,6 +2875,11 @@
       line-height: var(--tw-leading, var(--text-base--line-height));
     }
   }
+  .md\:my-20 {
+    @media (width >= 48rem) {
+      margin-block: calc(var(--spacing) * 20);
+    }
+  }
   .md\:mt-0 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 0);
@@ -2874,6 +2888,11 @@
   .md\:mt-7 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 7);
+    }
+  }
+  .md\:mt-10 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 10);
     }
   }
   .md\:mb-0 {
@@ -2889,6 +2908,11 @@
   .md\:mb-25 {
     @media (width >= 48rem) {
       margin-bottom: calc(var(--spacing) * 25);
+    }
+  }
+  .md\:mb-50 {
+    @media (width >= 48rem) {
+      margin-bottom: calc(var(--spacing) * 50);
     }
   }
   .md\:h-20 {
