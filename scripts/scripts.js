@@ -237,7 +237,6 @@ function applyLanguage(lang) {
 // Funkcja do blokowania przewijania strony
     function disableScroll() {
       document.body.style.overflow = 'hidden';
-      document.body.style.paddingRight = getScrollbarWidth() + 'px'; 
     }
     
     // Funkcja do przywracania przewijania strony
@@ -303,23 +302,6 @@ function applyLanguage(lang) {
         overlay.classList.add('invisible');
       }, 200);
     });
-});
-
-const button = document.getElementById('toggle-btn');
-const panel = document.getElementById('social-panel');
-let hideTimeout;
-
-button.addEventListener('click', () => {
-  panel.classList.toggle('visible');
-
-  if (panel.classList.contains('visible')) {
-    clearTimeout(hideTimeout);
-    hideTimeout = setTimeout(() => {
-      panel.classList.remove('visible');
-    }, 2000);
-  } else {
-    clearTimeout(hideTimeout);
-  }
 });
 
 document.addEventListener('DOMContentLoaded', () => {
