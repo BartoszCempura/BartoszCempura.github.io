@@ -29,7 +29,7 @@ const translations = {
 
 <span class="text-white">Realizuję </span><span class="text-amber-300">własne projekty</span><span class="text-white">, dzięki którym rozwijam umiejętności i poznaję proces tworzenia od pomysłu do gotowego rozwiązania. Obecnie szukam możliwości zdobycia pierwszego doświadczenia zawodowego.
 
-W pracy stawiam na </span><span class="text-amber-300">dokładność, zaangażowanie i dbałość o detale</span>.`,
+W pracy stawiam na </span><span class="text-amber-300">dokładność, zaangażowanie i dbałość o detale.</span>`,
     hi1: "Bartosz Cempura",
     hi2: " - Web Developer & Grafik",
     wt: `<span class="text-white">Szukasz kogoś, kto łączy</span><span class=text-amber-300> technikę z wyobraźnią?</span>`,
