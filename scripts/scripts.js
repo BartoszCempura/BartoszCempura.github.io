@@ -70,6 +70,13 @@ Ostatecznie autor zdecydował się na wariant pierwszy.`,
 Projekt zrealizowany za pośrednictwem środowiska Wordpress, z użyciem motywu AVADA.
 
 Zgodnie z wytycznymi zleceniodawcy.`,
+    secondWebpageTitle: "STRONA WEB",
+    secondWebpageDescription: `Projekt pracy dyplomowej o temacie "Sklep internetowy z panelem administracyjnym, 
+    
+mechanizmami statystycznymi oraz algorytmami rekomendacyjnymi".
+
+Prewiew zainicjowany na platformach Neon, Render oraz Vercel.`,
+
     firstPoster: "PLAKAT",
     firstPosterDescription: `Projekt plakatu oraz logotypu dla festiwalu realizowanego we współpracy z Młodzieżowym Domem Kultury w Bydgoszczy.
 
@@ -150,6 +157,12 @@ Ultimately, the author decided on the first option.`,
 Project implemented using WordPress, and AVADA theme.
 
 According to the client's guidelines.`,
+    secondWebpageTitle: "WEBPAGE",
+    secondWebpageDescription: `Thesis project on the topic "Online store with an administration panel, 
+    
+statistical mechanisms, and recommendation algorithms."
+
+Preview initiated on the Neon, Render, and Vercel platforms.`,
     firstPoster: "POSTER",
     firstPosterDescription: `A poster and logo design for a festival organized in collaboration with the Youth Cultural Center in Bydgoszcz.
 
@@ -208,6 +221,8 @@ function applyLanguage(lang) {
   document.getElementById('secondBookCoverDescription').textContent = translations[lang].secondBookCoverDescription;
   document.getElementById('firstWebpageTitle').textContent = translations[lang].firstWebpageTitle;
   document.getElementById('firstWebpageDescription').textContent = translations[lang].firstWebpageDescription;
+  document.getElementById('secondWebpageTitle').textContent = translations[lang].secondWebpageTitle;
+  document.getElementById('secondWebpageDescription').textContent = translations[lang].secondWebpageDescription;
   document.getElementById('firstPoster').textContent = translations[lang].firstPoster;
   document.getElementById('firstPosterDescription').textContent = translations[lang].firstPosterDescription;
   document.getElementById('secondPoster').textContent = translations[lang].secondPoster;
