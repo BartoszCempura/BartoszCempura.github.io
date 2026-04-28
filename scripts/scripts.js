@@ -25,13 +25,11 @@ function setButtonState(button, lang) {
 
 const translations = {
   PL: {
-    description: `<span class="text-white">Tworzę strony internetowe i grafikę, łącząc</span><span class="text-amber-300"> funkcjonalność z estetyką</span>.
-
-<span class="text-white">Realizuję </span><span class="text-amber-300">własne projekty</span><span class="text-white">, dzięki którym rozwijam umiejętności i poznaję proces tworzenia od pomysłu do gotowego rozwiązania. Obecnie szukam możliwości zdobycia pierwszego doświadczenia zawodowego.
-
-W pracy stawiam na </span><span class="text-amber-300">dokładność, zaangażowanie i dbałość o detale.</span>`,
+    description: `<span class="text-white">Tworzę strony internetowe i grafikę,</span><span class="text-amber-300"> łącząc funkcjonalność z estetyką</span>.
+<span class="block mt-5"><span class="text-white">Realizuję </span><span class="text-amber-300">własne projekty</span><span class="text-white">, dzięki którym rozwijam umiejętności i poznaję proces tworzenia od pomysłu do gotowego rozwiązania. Obecnie szukam możliwości zdobycia pierwszego doświadczenia zawodowego.</span>
+<span class="block mt-5"><span class="text-white">W pracy stawiam na </span><span class="text-amber-300">dokładność, zaangażowanie i dbałość o detale.</span></span>`,
     hi1: "Bartosz Cempura",
-    hi2: " - Web Developer & Grafik",
+    hi2: "Web Developer & Visual Designer",
     wt: `<span class="text-white">Szukasz kogoś, kto łączy</span><span class=text-amber-300> technikę z wyobraźnią?</span>`,
     contactMe: "Napisz do mnie",
     lt1: "M",
@@ -112,13 +110,11 @@ Na plecach znajduje się grafika w stylu „low poly art”, oraz znaki składaj
     formDescription: `*Wiadomość zostanie wysłana na mój e-mail. Odpowiem tak szybko, jak to możliwe.`
   },
   EN: {
-    description: `<span class="text-white">I create websites and graphics, combining </span><span class="text-amber-300">functionality with aesthetics.</span>
-
-<span class="text-white">I work on </span><span class="text-amber-300">my own projects</span><span class="text-white">, which allow me to develop my skills and learn the process of creating from concept to finished solution. I am currently seeking an opportunity to gain my first professional experience.
-
-In my work, I prioritize </span><span class="text-amber-300">accuracy, commitment, and attention to detail.</span>`,
+    description: `<span class="text-white">I create websites and graphics,</span><span class="text-amber-300"> combining functionality with aesthetics.</span>
+<span class="block mt-5"><span class="text-white">I work on </span><span class="text-amber-300">my own projects</span><span class="text-white">, which allow me to develop my skills and learn the process of creating from concept to finished solution. I am currently seeking an opportunity to gain my first professional experience.</span>
+<span class="block mt-5"><span class="text-white">In my work, I prioritize </span><span class="text-amber-300">accuracy, commitment, and attention to detail.</span></span>`,
     hi1: "Bartosz Cempura",
-    hi2: "- Web Developer & Graphic Designer",
+    hi2: "Web Developer & Visual Designer",
     wt: `<span class="text-white">Looking for someone who combines </span><span class="text-amber-300">technical skills with creativity ?</span>`,
     contactMe: "Contact me",
     lt1: " ",
